@@ -24,7 +24,8 @@ function Signup({setIsAuth}) {
   };
 
   return (
-    <div>
+    <div className="signUp">
+      <label>Sign Up</label>
       <input
         placeholder="First Name"
         onChange={(event) => {

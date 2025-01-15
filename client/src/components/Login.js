@@ -20,7 +20,8 @@ function Login({setIsAuth}) {
   };
 
   return (
-    <div>
+    <div className="login">
+      <label>Login</label>
       <input
         placeholder="Username"
         onChange={(event) => setUsername(event.target.value)}
